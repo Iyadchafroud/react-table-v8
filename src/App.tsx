@@ -27,12 +27,15 @@ import {
   AiFillCheckSquare,
   AiFillFileText,
 } from "react-icons/ai";
-import { makeData, Person } from "./makeData";
 import {
   RankingInfo,
   rankItem,
   compareItems,
 } from "@tanstack/match-sorter-utils";
+
+
+import { makeData, Person } from "./makeData";
+
 import "./index.css";
 declare module "@tanstack/table-core" {
   interface FilterFns {
